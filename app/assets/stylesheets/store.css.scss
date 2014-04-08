@@ -1,0 +1,153 @@
+// Place all the styles related to the store controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.top-bar{
+	padding-left:10%;
+	margin-top:30px;
+	padding-right:10%;
+	.title-area{
+		h1{
+			a{
+				padding-left:0px;
+			}
+		}
+		a{
+			font-family: American Typewriter;
+			font-size:18px;
+			
+			p{
+				padding:8px 13px 8px 13px;
+				margin-right: 7px;
+				display: inline-block;
+				background: #020e29;
+				color:#fff;
+				font-size:18px;
+				font-family: American Typewriter;
+			}
+		}
+	}
+	ul{
+
+		li{
+			a{
+				font-size: 16px;
+		
+			}
+		}
+	}
+}
+.container{
+	padding-left:10%;
+	padding-right: 10%;
+}
+
+
+.slide{
+	margin-top: 20px;
+}
+.form-product{
+	margin-top: 10px;
+	.mid-hr{
+		border-top: 1px solid #000;
+		margin-top: 40px;
+		width: 100%;
+		
+	}
+	h3{
+		margin-top: 10px;
+		text-transform: uppercase;
+		color:#111;
+		font-size: 18px;
+		text-align: center;
+		text-decoration: underline;
+		margin-bottom: 20px;
+	}
+	.con-box{
+		width: 100%;
+		left: 0;
+		right: -5%;
+		margin: 0;
+		padding: 0;
+		margin-bottom:10px;
+	a{
+	.box{
+	width: 23%;
+	display: inline;
+	margin: 0px;
+	left:0px;
+	right: -5px;
+	position: relative;
+		.slide-title{
+			text-transform: uppercase;
+			background: #fff;
+			width: 100%;
+			padding:15px 0px; 
+			top:40%;
+			text-align: center;
+			color:#222;
+			z-index: 1;
+			-webkit-z-index: 1;
+			-o-z-index: 1;
+			-moz-z-index: 1;
+			position: absolute;
+			-webkit-position: absolute;
+			position: absolute;
+		}
+		.slide-img{
+			display: inline-block;
+			width: 24.7%;
+			padding: 0px 0px;
+			margin: 0px;
+			position: static;
+			img{
+				padding: 0px;
+				width: 100%;
+				margin: 0px;
+				z-index: 0;
+			}
+		}
+	}
+	}
+}
+}
+
+hr{
+	width: 100%;
+}
+
+
+
+
+.orbit-bullets-container{
+	.orbit-bullets{
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

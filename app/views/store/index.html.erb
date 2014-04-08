@@ -1,0 +1,52 @@
+<div class="slide">
+	<ul class="example-orbit" data-orbit>
+	  <li>
+	    <%= image_tag "1.jpg" %>
+	    <div class="orbit-caption">
+	      T-SHIRT.
+	    </div>
+	  </li>
+	  <li>
+		<%= image_tag "3.jpg" %>
+	    <div class="orbit-caption">
+	      SPORT T-SHIRT.
+	    </div>
+	  </li>
+	  <li>
+	    <%= image_tag "4.jpg" %>
+	    <div class="orbit-caption">
+	      MIXIN HAT .
+	    </div>
+	  </li>
+	</ul>
+</div>
+
+
+<div class="form-product">
+<span class="mid-hr"></span>
+<h3>Shop by Collection</h3>
+<div class="con-box">
+	<% @slides.each do |slide| %>
+	<%= link_to "" do %>
+		<div class="box">
+			<div class="slide-img">
+			<div class="slide-title"><%= slide.title %></div>
+			<%= image_tag slide.image %>
+			</div>
+		</div>
+	<% end %>	
+	<% end %>
+</div>
+	<hr>
+</div>
+
+
+
+
+
+
+
+
+
+
+
